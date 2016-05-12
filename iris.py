@@ -19,6 +19,9 @@ test_data = iris.data[test_idx]
 clf = tree.DecisionTreeClassifier()
 clf.fit(train_data, train_target)
 
+# print checked result from tree search
+
 print test_target
 print clf.predict(test_data)
+
 
